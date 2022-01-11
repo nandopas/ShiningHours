@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+/*
+
+Color Palate:
+
+teal #2596be
+
+purple #6167a7
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Michroma', sans-serif;
+    color: whitesmoke;
+}
+body {
+    /*background-color: whitesmoke;*/
+    background-color: #6167a7;
+}
+
+.cover {
+    position: relative;
+    text-align: center;
+}
+
+.cover-photo {
+    width: 100%;
+    height: auto;
+    opacity: 100%;
+    box-shadow: 5px 0px 50px #2596be;
+}
+
+.The-Shining-Hours {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow: -5px 5px 5px violet;
+}
+
+.container {
+    display: flex;
+    padding: 10vh 0;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 10vh;
+    text-shadow: -5px 5px 5px violet;
+}
+
+.Instagram-Logo {
+    height: 10vh;
+    transition: .3s;
+    border-radius: 30%;
+}
+
+.Instagram-Logo:hover {
+    box-shadow: 0 4px 8px 0 rgba(253,187,45,0.5), 0 6px 20px 0 rgba(253,187,45,0.19);
+    transform: scale(1.1, 1.1);
+    color: rgba(73,251,53,1);
+}
+
+.about {
+    border-top-width: 1px;
+    border-top-style: solid;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 80%;
+    padding: 30px 0;
+
+}
