@@ -50,10 +50,11 @@ body {
     justify-content: space-evenly;
     min-height: 10vh;
     text-shadow: -5px 5px 5px violet;
+    text-align: center;
 }
 
 .Instagram-Logo {
-    height: 10vh;
+    height: 7vh;
     transition: .3s;
     border-radius: 30%;
 }
@@ -72,4 +73,18 @@ body {
     width: 80%;
     padding: 30px 0;
 
+}
+
+/* for smaller screen sizes */
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 5vh 0;
+        font-size: 15px;
+    }
+
+    .about {
+        font-size: 10px;
+    }
 }
